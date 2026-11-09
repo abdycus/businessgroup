@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products & Services | Wells Fargo Student Project</title>
+  <style>
+/* Shared colors and layout, repeated internally so each page works on its own. */
+* { box-sizing: border-box; }
+body { margin: 0; background: #fbf8f3; color: #302722; font-family: Arial, sans-serif; line-height: 1.65; }
+header { background: #b01823; color: white; border-bottom: 5px solid #efc55b; }
+.nav-wrap { max-width: 1100px; margin: auto; padding: 20px 24px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.brand { color: white; font-family: Georgia, serif; font-size: 28px; font-weight: bold; text-decoration: none; }
+nav { display: flex; gap: 22px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; padding: 5px 0; }
+nav a:hover, nav a[aria-current="page"] { border-bottom: 2px solid #efc55b; }
+a { color: #a51420; }
+main { max-width: 1100px; margin: auto; padding: 44px 24px 60px; }
+h1 { font-family: Georgia, serif; font-size: clamp(36px, 5vw, 58px); line-height: 1.12; margin: 12px 0 22px; font-weight: normal; }
+h2 { font-family: Georgia, serif; font-size: 29px; line-height: 1.25; margin: 0 0 16px; }
+h3 { font-size: 20px; margin: 0 0 10px; }
+p { margin: 0 0 18px; }
+.eyebrow { color: #a51420; letter-spacing: 2px; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+.hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 38px; align-items: center; margin-bottom: 48px; }
+.hero img { width: 100%; border-radius: 10px; display: block; }
+.lead { font-size: 18px; }
+.button { display: inline-block; background: #b01823; color: white; text-decoration: none; border-radius: 5px; padding: 12px 22px; font-weight: bold; margin: 6px 10px 6px 0; }
+.button:hover { background: #88131b; }
+.secondary { background: white; color: #a51420; border: 1px solid #b01823; }
+section { margin-top: 38px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.card { background: white; padding: 25px; border: 1px solid #e6ded4; border-radius: 8px; }
+.card p:last-child { margin-bottom: 0; }
+.price { color: #a51420; font-size: 23px; font-weight: bold; }
+.number { display: block; font-family: Georgia, serif; color: #a51420; font-size: 32px; }
+.spotlight { background: #f6e8c5; border-left: 5px solid #b01823; padding: 28px; border-radius: 5px; }
+.two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.note { font-size: 13px; color: #665c54; }
+blockquote { margin: 0; font-family: Georgia, serif; font-size: 24px; }
+details { background: white; padding: 16px 20px; border-bottom: 1px solid #e6ded4; }
+summary { cursor: pointer; font-weight: bold; }
+details p { margin-top: 12px; }
+footer { border-top: 1px solid #ded4c8; padding: 25px; text-align: center; font-size: 13px; background: #f3ede4; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #bb8600; outline-offset: 5px; }
+@media (max-width: 720px) { .hero, .grid, .two-column { grid-template-columns: 1fr; } main { padding-top: 28px; } .hero { gap: 24px; } nav { gap: 16px; } }
+</style>
+</head>
+<body>
+<!-- Author: REPLACE WITH PRODUCTS PAGE AUTHOR | Date: November 8, 2026 -->
+<!-- Educational concept only. All offers, prices, stories, reviews, and contact details are fictional. -->
+<header><div class="nav-wrap"><a class="brand" href="index.html">Wells Fargo</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="page2.html" aria-current="page">Products & Services</a><a href="page3.html">About & Contact</a></nav></div></header>
+<main>
+  <div class="hero">
+    <div><p class="eyebrow">The offer</p><h1>A plan for<br>what comes next.</h1><p class="lead">Start with the essentials. Grow at your own pace.</p><p>Explore six made-up products and services designed for our classroom business concept. Every price and feature below is fictional and is not an actual Wells Fargo offer.</p><a class="button" href="#catalog">Browse the Catalog</a></div>
+    <!-- Embedded illustration keeps the image included when this HTML file is submitted alone. -->
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjAiIGhlaWdodD0iNTcwIiB2aWV3Qm94PSIwIDAgNzYwIDU3MCI+PHJlY3Qgd2lkdGg9Ijc2MCIgaGVpZ2h0PSI1NzAiIGZpbGw9IiNmMWU0Y2MiLz48Y2lyY2xlIGN4PSI2MTIiIGN5PSIxMTMiIHI9IjE1MCIgZmlsbD0iI2U4Yzc3NiIvPjxwYXRoIGQ9Ik0wIDQ5MCBRMjcwIDQxMCA3NjAgNDYwIFY1NzAgSDBaIiBmaWxsPSIjZDViZjlmIi8+PHJlY3QgeD0iMTEyIiB5PSIxNzAiIHdpZHRoPSI1MzUiIGhlaWdodD0iMjk1IiByeD0iMTIiIGZpbGw9IiNmZmZkZjgiLz48cGF0aCBkPSJNODQgMTcyIEwzODAgNTggTDY3NiAxNzJaIiBmaWxsPSIjYWUxOTI1Ii8+PHJlY3QgeD0iMTA0IiB5PSIxNzYiIHdpZHRoPSI1NTAiIGhlaWdodD0iMzUiIGZpbGw9IiNiZDI1MzAiLz48ZyBmaWxsPSIjZTZkN2JlIj48cmVjdCB4PSIxNTAiIHk9IjIzMCIgd2lkdGg9IjU1IiBoZWlnaHQ9IjE4MCIvPjxyZWN0IHg9IjI4NSIgeT0iMjMwIiB3aWR0aD0iNTUiIGhlaWdodD0iMTgwIi8+PHJlY3QgeD0iNDIwIiB5PSIyMzAiIHdpZHRoPSI1NSIgaGVpZ2h0PSIxODAiLz48cmVjdCB4PSI1NTUiIHk9IjIzMCIgd2lkdGg9IjU1IiBoZWlnaHQ9IjE4MCIvPjwvZz48cmVjdCB4PSI5MSIgeT0iNDEwIiB3aWR0aD0iNTgwIiBoZWlnaHQ9IjI4IiBmaWxsPSIjYzVhZThjIi8+PHJlY3QgeD0iNjkiIHk9IjQzOCIgd2lkdGg9IjYyNSIgaGVpZ2h0PSIyNyIgZmlsbD0iI2IyOWI3YSIvPjxjaXJjbGUgY3g9IjYxNSIgY3k9IjQwMCIgcj0iNjMiIGZpbGw9IiNlZmM1NWIiLz48cGF0aCBkPSJNNjE1IDM2MiBWNDM5IE02MzUgMzczIEM1OTcgMzQ2IDU4MCAzOTYgNjE0IDQwMCBDNjUwIDQwNSA2MzkgNDQ1IDU5NCA0MjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzgzNWMxMiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48dGV4dCB4PSIzODAiIHk9IjE0OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsc2VyaWYiIGZvbnQtc2l6ZT0iMjciIGZpbGw9IndoaXRlIj5TVFVERU5UIEJBTktJTkc8L3RleHQ+PC9zdmc+" alt="Illustration of a bank building with columns and a gold dollar coin" width="760" height="570">
+  </div>
+  <section id="catalog"><h2>Find your starting point.</h2><div class="grid"><article class="card"><h3>Campus Checking</h3><p>Your everyday starting line. A fictional package with spending categories and a monthly budget worksheet.</p><p class="price">$0 / month</p></article><article class="card"><h3>Goal Builder Savings</h3><p>Plan for your next milestone with a goal worksheet and monthly progress check-in.</p><p class="price">$0 / month</p></article><article class="card"><h3>Budget Boost Session</h3><p>A 30-minute practice session to organize income, expenses, and a realistic campus budget.</p><p class="price">$15 / session</p></article><article class="card"><h3>First Apartment Kit</h3><p>A planning bundle covering rent, utilities, groceries, and a moving-cost checklist.</p><p class="price">$20 / kit</p></article><article class="card"><h3>Small Business Starter</h3><p>A 45-minute fictional workshop with a startup budget template and cash-flow worksheet.</p><p class="price">$35 / workshop</p></article><article class="card"><h3>Financial Fresh Start Bundle</h3><p>Combine a Budget Boost Session and First Apartment Kit for one student-friendly price.</p><p class="price">$25 / bundle</p></article></div></section>
+<section><p class="eyebrow">How it works</p><h2>Three steps to a clearer plan.</h2><div class="grid"><article class="card"><span class="number">01</span><h3>Pick your goal</h3><p>Choose the fictional package that fits what you want to learn.</p></article><article class="card"><span class="number">02</span><h3>Meet the team</h3><p>Imagine a friendly campus conversation about your priorities.</p></article><article class="card"><span class="number">03</span><h3>Build your plan</h3><p>Use the worksheets to map out your next steps.</p></article></div></section>
+<section class="spotlight"><p class="eyebrow">Featured classroom offer</p><h2>The Fresh Start Bundle</h2><p>Our fictional bestseller combines a budgeting session and an apartment-planning kit for $25 instead of $35. Pretend promo code <strong>GAMECOCK10</strong> takes another 10% off the bundle, bringing it to $22.50.</p><a class="button" href="page3.html">Ask About the Bundle</a><p class="note">Illustrative promotion only. No purchases, payments, or account applications are processed.</p></section>
+</main>
+<footer>Wells Fargo student concept · ITEC 101 · University of South Carolina<br>Classroom project only. Not affiliated with Wells Fargo. No real banking services are offered.</footer>
+</body>
+</html>
